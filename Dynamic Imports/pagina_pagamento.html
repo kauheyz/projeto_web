@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Dynamic</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            width: 50%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagamento Dynamic</h1>
+    
+    <form>
+        <label for="cardNumber">Número do Cartão:</label>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+
+        <label for="expiryDate">Data de Validade:</label>
+        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+
+        <label for="cardholderName">Nome do Titular:</label>
+        <input type="text" id="cardholderName" name="cardholderName" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="XXX" required>
+
+        <label for="country">País:</label>
+        <select id="country" name="country" required>
+            <option value="brasil">Brasil</option>
+
+        </select>
+
+        <button type="submit">Pagar</button>
+    </form>
+    <script>
+        function comprar() {
+            alert("Compra realizada com sucesso!");
+            return true;
+        }
+    </script>
+</body>
+</html>

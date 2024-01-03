@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho Dynamic</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        tfoot {
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carrinho Dynamic</h1>
+    <form action="pagina_pagamento.html">
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Imagem</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bicicleta Aro 29 Krw Alumínio 24 Vel Freio A Disco X42</td>
+                <td><img src="https://http2.mlstatic.com/D_NQ_NP_783080-MLB49869562766_052022-O.webp" alt="Imagem Produto 1"></td>
+                <td>1</td>
+                <td>R$ 835,00</td>
+                <td>R$ 835,00</td>
+            </tr>
+            <tr>
+                <td>Smart TV Samsung BET-B HD 32" Bivolt</td>
+                <td><img src="https://http2.mlstatic.com/D_NQ_NP_621534-MLU72750634412_112023-O.webp" alt="Imagem Produto 2"></td>
+                <td>1</td>
+                <td>R$ 1.149,00</td>
+                <td>R$ 1.149,00</td>
+            </tr>
+            <tr>
+                <td>Notebook Samsung Book I3 4gb 256gb Ssd 15,6'' W11 Cor Cinza-místico</td>
+                <td><img src="https://http2.mlstatic.com/D_NQ_NP_911315-MLU72748485731_112023-O.webp" alt="Imagem Produto 2"></td>
+                <td>1</td>
+                <td>R$ 1.899,90</td>
+                <td>R$ 1.899,90</td>
+            </tr>
+            <tr>
+                <td>Caixa De Som Bluetooth Xtreme 3 50w À Prova D'água Preta Jbl 110V/220V</td>
+                <td><img src="https://http2.mlstatic.com/D_NQ_NP_770852-MLU73528843205_122023-O.webp" alt="Imagem Produto 2"></td>
+                <td>1</td>
+                <td>R$ 1.199,00</td>
+                <td>R$ 1.199,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total</td>
+                <td>R$ 5.082,90</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <button>Finalizar Compra</button>
+    </form>
+</body>
+</html>
