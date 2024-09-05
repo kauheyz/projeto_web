@@ -1,0 +1,32 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_783080-MLB49869562766_052022-O.webp",
+        "title": "Bicicleta Aro 29 Krw Alumínio 24 Vel Freio A Disco X42",
+        "description": "Descrição do produto: A bicicleta KRW X42 foi desenvolvida para quem quer realizar um passeio e pegar trilhas leves. Com seu quadro em alumínio 6061, fornece segurança e leveza no seu pedal. Possuí diversas cores que garante um estilo próprio para você.",
+        "price": "R$ 835,00"
+      },
+      {
+        "id": 2,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_621534-MLU72750634412_112023-O.webp",
+        "title": "Smart TV Samsung BET-B HD 32\" Bivolt",
+        "description": "Descrição do produto: Com Smart TV BE32T-B você poderá acessar os aplicativos onde seu conteúdo favorito está localizado. Além disso, você pode navegar na web, interagir em redes sociais e se divertir com jogos de vídeo.",
+        "price": "R$ 1.149,00"
+      },
+      {
+        "id": 3,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_911315-MLU72748485731_112023-O.webp",
+        "title": "Notebook Samsung Book I3 4gb 256gb Ssd 15,6'' W11 Cor Cinza-místico",
+        "description": "Descrição do produto: O Samsung Book é um notebook de alto desempenho da Samsung. Ele vem equipado com um processador Intel Core i3 de 11ª geração, que oferece velocidade e desempenho excepcionais para tarefas de alto nível. Além disso, ele possui 4 GB de memória RAM, que garante que o usuário possa executar algumas tarefas simultaneamente sem comprometer o desempenho.",
+        "price": "R$ 1.899,90"
+      },
+      {
+        "id": 4,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_770852-MLU73528843205_122023-O.webp",
+        "title": "Caixa De Som Bluetooth Xtreme 3 50w À Prova D'água Preta Jbl 110V/220V",
+        "description": "Descrição do produto: A Caixa De Som Bluetooth Xtreme 3 50w Preta Jbl oferece o potente JBL Original Pro Sound. Com quatro drivers e dois radiadores de graves JBL, o som potente atrairá a todos.",
+        "price": "R$ 1.199,00"
+      }
+    ]
+  }  
